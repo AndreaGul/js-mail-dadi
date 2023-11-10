@@ -1,3 +1,4 @@
+'use strict';
 // Dichiaro una variabile che sara definita con un array che al suo interno conterra le email gia registrate
 
 const emailAccettate = [

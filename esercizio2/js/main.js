@@ -1,3 +1,4 @@
+'use strict';
 // Tramite la funzione math random generiamo un numero da 1 a 6 (faremo il calcolo randmath *5 e il risultato+1)
 // Creeremo due variabili che al suo interno conterranno la funzione math random
 
