@@ -4,25 +4,27 @@
 
 const numUtente = Math.floor(Math.random() * 6) + 1;
 
-console.log('giocatore N =', numUtente);
-
 const numComputer = Math.floor(Math.random() * 6) + 1;
-
-console.log('computer N =', numComputer);
 
 // Tramite più codizioni verifichiamo chi ha vinto
 
 // Se il numero dell''utente e maggiore del computer stamperemRo ha vinto il giocatore
 if (numUtente > numComputer) {
-  console.log('Ha vinto il giocatore');
+  console.log(
+    `Ha vinto il giocatore con il punteggio di ${numUtente} a ${numComputer}`
+  );
 }
 
 // Altrimenti se il numero dell'utente e minore del computer stamperemo ha vinto il computer
 else if (numUtente < numComputer) {
-  console.log('Ha vinto il computer');
+  console.log(
+    `Ha vinto il computer con il punteggio di ${numComputer} a ${numUtente} `
+  );
 }
 
 // Altrimenti stamperemo la partita e finita in pareggio
 else {
-  console.log('Pareggio');
+  console.log(
+    `Pareggio con il punteggio di ${numUtente} per il giocatore e ${numComputer} per il computer`
+  );
 }
